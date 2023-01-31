@@ -1,10 +1,10 @@
 console.log('***** Cart Functions *****');
 // Make sure to test all functions here in the JS file!
 // We want to see how you are testing your code!!!
+
 const maxItems = 5;
 let basket = [];
-console.log( `basket is ${basket}` );
-
+console.log( `basket is ${basket}` ); //should apppear empty as the array right now is empty
 
 function addItem ( item ) {
         console.log(isFull());
@@ -47,14 +47,23 @@ function isFull() {
 }
 
 
-/**  TO BE WORKED ON
+/**  TO BE WORKED ON / IDEAS FOR PROJECT
 
 function removeItem(item) {
-    if (i === basket.indexOf);
+    if (basket.indexOf() =  );
+    array.splice
 
 }
 
 removeItem(`chips`);
 console.log(basket);
+
+
+
+function removeItem(item) {
+    let x = basket.indexOf(item);
+    basket.splice(x);
+    return basket;
+}
 
 */
